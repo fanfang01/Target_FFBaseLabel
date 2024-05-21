@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (48)
+  - FFBaseLabelCustomTest (1.0.0)
+
+DEPENDENCIES:
+  - CTMediator
+  - "FFBaseLabelCustomTest (from `/Users/derrick/Desktop/pod组建验证/FFBaseLabel`)"
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  FFBaseLabelCustomTest:
+    :path: "/Users/derrick/Desktop/pod组建验证/FFBaseLabel"
+
+SPEC CHECKSUMS:
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  FFBaseLabelCustomTest: 889e578b01061328364bacde8753a69cacdb5dc3
+
+PODFILE CHECKSUM: 3b1cb1dcd76f638578049648ecb45f7641671225
+
+COCOAPODS: 1.15.2

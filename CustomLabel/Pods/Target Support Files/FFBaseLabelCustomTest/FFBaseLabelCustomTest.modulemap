@@ -1,0 +1,6 @@
+framework module FFBaseLabelCustomTest {
+  umbrella header "FFBaseLabelCustomTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
