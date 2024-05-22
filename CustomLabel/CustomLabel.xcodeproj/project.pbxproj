@@ -15,6 +15,7 @@
 		497F22AD2BF1E56E0007035D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497F22AC2BF1E56E0007035D /* Assets.xcassets */; };
 		497F22B02BF1E56E0007035D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497F22AE2BF1E56E0007035D /* LaunchScreen.storyboard */; };
 		497F22B32BF1E56E0007035D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F22B22BF1E56E0007035D /* main.m */; };
+		49860A9D2BFDE606003021CD /* FaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49860A9C2BFDE606003021CD /* FaceSDK.framework */; };
 		49A8DA912BF1F408002278AA /* Target_FFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A8DA8C2BF1F408002278AA /* Target_FFLabel.m */; };
 		49A8DAB62BF7584A002278AA /* CTMediator+FFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A8DAB42BF7584A002278AA /* CTMediator+FFLabel.m */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		497F22AF2BF1E56E0007035D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497F22B12BF1E56E0007035D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497F22B22BF1E56E0007035D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49860A9C2BFDE606003021CD /* FaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceSDK.framework; sourceTree = "<group>"; };
 		49A8DA8C2BF1F408002278AA /* Target_FFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_FFLabel.m; sourceTree = "<group>"; };
 		49A8DA8E2BF1F408002278AA /* Target_FFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_FFLabel.h; sourceTree = "<group>"; };
 		49A8DAB42BF7584A002278AA /* CTMediator+FFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+FFLabel.m"; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49860A9D2BFDE606003021CD /* FaceSDK.framework in Frameworks */,
 				3DB7181ECA9A0F1929F9D707 /* Pods_CustomLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +113,7 @@
 		497F22B92BF1E6AA0007035D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				49860A9C2BFDE606003021CD /* FaceSDK.framework */,
 				49A8DAB52BF7584A002278AA /* CTMediator+FFLabel.h */,
 				49A8DAB42BF7584A002278AA /* CTMediator+FFLabel.m */,
 				49A8DA8E2BF1F408002278AA /* Target_FFLabel.h */,
